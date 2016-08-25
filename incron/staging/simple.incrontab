@@ -1,0 +1,3 @@
+/var/incrondemo/any IN_ALL_EVENTS logger "incron notification triggered! path:$@ event:$% file:$#"
+/var/incrondemo/in/move IN_MOVED_TO /var/staging/move.sh $@ $# /var/incrondemo/out
+/var/incrondemo/in/close IN_CLOSE_WRITE /var/staging/move.sh $@ $# /var/incrondemo/out
